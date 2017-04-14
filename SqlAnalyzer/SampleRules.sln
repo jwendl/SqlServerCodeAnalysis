@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRules", "SampleRules\SampleRules.csproj", "{A742047E-34D2-44D4-AB6E-1BF218589690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{B1D1E1DD-3935-42D7-9E9E-62A44A7430F1}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Microsoft.Data.Tools.Schema.Sql.dll = Libraries\Microsoft.Data.Tools.Schema.Sql.dll
+		Libraries\Microsoft.SqlServer.Dac.dll = Libraries\Microsoft.SqlServer.Dac.dll
+		Libraries\Microsoft.SqlServer.Dac.Extensions.dll = Libraries\Microsoft.SqlServer.Dac.Extensions.dll
+		Libraries\Microsoft.SqlServer.TransactSql.ScriptDom.dll = Libraries\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FF91D00-F260-4528-9C7B-E4F1DD13A564}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRules.Integration", "SampleRules.Integration\SampleRules.Integration.csproj", "{ACBB0226-6F02-4AF7-84D6-4E5057DCF9BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A742047E-34D2-44D4-AB6E-1BF218589690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A742047E-34D2-44D4-AB6E-1BF218589690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A742047E-34D2-44D4-AB6E-1BF218589690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A742047E-34D2-44D4-AB6E-1BF218589690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACBB0226-6F02-4AF7-84D6-4E5057DCF9BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBB0226-6F02-4AF7-84D6-4E5057DCF9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBB0226-6F02-4AF7-84D6-4E5057DCF9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBB0226-6F02-4AF7-84D6-4E5057DCF9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
